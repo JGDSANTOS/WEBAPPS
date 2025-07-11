@@ -6,7 +6,7 @@ from datetime import datetime
 from auth import force_relogin_on_navigate, add_logout_button
 
 
-FILE_PATH = "Notas.csv"
+FILE_PATH = "STREAMLIT/CONTROLE-NOTAS/Notas.csv"
 COLUNA_NF = "N NF"
 COLUNA_FORNECEDOR = "FORNECEDOR"
 COLUNA_VALOR = "Valor" 
