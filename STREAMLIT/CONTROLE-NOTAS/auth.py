@@ -26,6 +26,7 @@ def check_password():
 
     if not st.session_state["password_correct"]:
         st.title("Login :closed_lock_with_key:")
+        st.markdown("senha=123")
         usernames = list(st.secrets["users"].keys())
         st.selectbox("Selecione seu nome de usuário:", usernames, key="username")
         st.text_input("Senha:", type="password", on_change=password_entered, key="password")
