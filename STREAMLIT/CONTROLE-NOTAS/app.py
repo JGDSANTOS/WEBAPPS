@@ -3,8 +3,8 @@ import streamlit as st
 
 
 st.set_page_config(page_title="App de Controle", layout="wide", initial_sidebar_state="auto")
-sidebar_logo = "Logo_GYN_2.png"
-main_logo = "Logo_GYN_1.png"
+sidebar_logo = "STREAMLIT/CONTROLE-NOTAS/Logo_GYN_2.png"
+main_logo = "STREAMLIT/CONTROLE-NOTAS/Logo_GYN_1.png"
 st.logo(sidebar_logo,icon_image=main_logo,size="large")
 
 
