@@ -32,7 +32,7 @@ layout=go.Layout(
         font=dict(color="#444444")
     )))
 
-FILE_PATH = "Notas.csv"
+FILE_PATH = "STREAMLIT/CONTROLE-NOTAS/Notas.csv"
 COLUNA_NF = "N NF"
 COLUNA_FORNECEDOR = "FORNECEDOR"
 COLUNA_VALOR = "Valor" 
